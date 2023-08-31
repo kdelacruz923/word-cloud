@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 7
+      Chapter Case
+
+      Author: 
+      Date: July 13th, 2023  
+
+      Filename: js07.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="https://cors-anywhere.herokuapp.com">
+   <title>Chapter 7 Case Problem: Word Cloud</title>
+   <link rel="stylesheet" href="styleB.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.0.4/wordcloud2.min.js"></script>
+   <script src="scriptB.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <img src="wordcloud.png" alt="wordcloud" />
+   </header>
+
+   <article id="wc_intro">
+      <h1>Word Cloud Generator</h1>
+      <p>Enter the URL of a text file to generate a word cloud of the most repeated words in the document.</p>
+      <input type="text" id="urlInput" placeholder="Enter URL">
+      <button id="generateButton">Generate Word Cloud</button>
+   </article>
+
+   <div id="wc_output">
+      <article id="wc_document"></article>
+      <aside id="wc_cloud"></aside>
+      <div id="wc_cloud_container" style="width: 800px; height: 400px;"></div>
+   </div>
+
+</body>
+<footer>
+   <p>&copy; Copyright Karen Dela Cruz - 301296127 - COMP125 - Assignment 3B</p>
+ </footer>
+</html>
