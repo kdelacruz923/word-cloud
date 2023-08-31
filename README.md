@@ -1,2 +1,2 @@
 # word-cloud
-website - world cloud generator using url
+website - word cloud generator using url
